@@ -1,0 +1,190 @@
+*{
+	margin: 0; padding: 0;
+	box-sizing: border-box;
+}
+
+*:before, *after{
+	box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+	position: relative;
+	font-family: arial;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+hr{
+	margin-top: 10px; margin-bottom: 10px;
+}
+
+input[type=text], input[type=password]{
+	margin-top: 5px;
+	padding: 10px;
+	border: 2px solid green;
+	box-sizing: border-box;
+}
+
+input[type=submit]{
+	background-color: green;
+	border: none;
+	color: white;
+	padding: 12px;
+}
+
+input[type=button]{
+	background-color: grey;
+	border: none;
+	color: white;
+	padding: 10px;
+}
+
+ul, li{
+	display: inline-block;
+	padding: 5px;
+}
+
+hr{
+	border: none;
+	height: 1px;
+	background-color: white;
+}
+
+a:link{
+	color: white;
+	text-decoration: none;
+}
+
+a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: black;
+	text-decoration: none;
+}
+
+.kepala{
+	width: auto;
+	height: 80px;
+	background-color: green;
+	padding: 20px;
+	color: white;
+}
+
+.kepala-kiri{
+	float: left;
+	height: 80px;
+	width: 30%;
+}
+
+.kepala-kanan{
+	float: left;
+	height: 80px;
+	width: 70%;
+}
+
+.kepala-judul{
+	margin-top: 10px;
+	width: auto;
+	padding: 15px;
+	height: auto;
+	color: white;
+	background-color: green;
+}
+
+.menu-kanan{
+	float: right;
+}
+
+.menu-kaki{
+	width: auto;
+	height: auto;
+	color: white;
+	padding: 15px;
+	background-color: black;
+}
+
+.badan{
+	width: auto;
+	height: auto;
+	padding: 20px;
+}
+
+.badan-atas{
+	width: auto;
+	height: auto;
+	padding: 15px;
+	color: white;
+	background-color: grey;
+}
+
+.badan-atas-b{
+	width: 70%;
+	height: auto;
+	padding: 15px;
+	color: white;
+	background-color: grey;
+}
+
+.badan-tengah{
+	width: auto;
+	height: 720px;
+	padding: 15px;
+	color: white;
+	background-color: grey;
+}
+
+.badan-tengah-b{
+	width: auto;
+	height: 900px;
+	padding: 15px;
+	color: white;
+	background-color: grey;
+}
+
+.obj-1{
+	width: 300px;
+	height: 620px;
+	float: left;
+	background-color: green;
+	padding: 15px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+
+.obj-2{
+	width: 300px;
+	height: 620px;
+	float: left;
+	background-color: green;
+	padding: 15px;
+	border: 3px solid black;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+
+.obj-diskusi{
+	width: 300px;
+	height: auto;
+	float: left;
+	background-color: green;
+	padding: 15px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 10px;
+}
+.kaki{
+	width: auto;
+	height: 50px;
+	padding: 10px;
+	color: white;
+	background-color: black;
+}
